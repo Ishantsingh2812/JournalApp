@@ -1,0 +1,9 @@
+#spring.application.name=journalApp
+#spring.security.user.name=name
+#spring.security.user.password=password
+
+Spring:
+  profiles:
+    active: dev
+
+

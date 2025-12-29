@@ -1,0 +1,26 @@
+#spring.application.name=journalApp
+#spring.security.user.name=name
+#spring.security.user.password=password
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://coderishant2812_db_user:K20bO15LpC9fh76o@cluster0.z0asiyv.mongodb.net/?appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+
+
+
+server:
+  servlet:
+    context-path: /journal
